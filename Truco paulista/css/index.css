@@ -1,0 +1,308 @@
+#caixa-logo{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+  text-align: center;
+}
+#logo{
+    position: absolute;
+    width: 20%;
+    margin-left: -100px;
+}
+#mesa{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+}
+#mesa section{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: #421313 solid 4px;
+    border-radius: 10px;
+}
+#mao-j1{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 100px;
+}
+#mao-j2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 700px;
+}
+#mao-j3{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#mao-j4{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 400px;
+}
+#carta1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#carta2{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+#carta3{
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 115px;
+}
+#mao-j1 img{
+    width: 28%;
+    cursor: pointer;
+}
+#mao-j2 img{
+    width: 28%;
+    cursor: pointer;
+}
+#mao-j3 img{
+    width: 28%;
+    cursor: pointer;
+}
+#mao-j4 img{
+    width: 28%;
+    cursor: pointer;
+}
+.comecar{
+    position: absolute;
+    margin-top: 180px;
+    background-color: forestgreen;
+    color: white;
+    border: 2px black solid;
+    width: 100px;
+    cursor: pointer;
+    float: center;
+}
+.passar{
+    position: absolute;
+    margin-top: 55px;
+    background-color: forestgreen;
+    color: white;
+    border: 2px black solid;
+    width: 100px;
+    cursor: pointer;
+    float: center;
+    margin-left: 170px;
+
+}
+
+.remover{
+    background-color: yellow;
+    display: none;
+}
+
+.cartaSelecionada{
+    position: absolute;
+    margin-top: -60px;
+    transition: 1s all;
+}
+.invisivel{
+    opacity: 0;
+	transition: 0.5s;
+}
+.carta1-img{
+    position: absolute;
+    margin-top: 37px;
+}
+.carta1-img-J{
+    position: absolute;
+    margin-top: 37px;
+    transition: 2s all;
+}
+.carta1-img-J:hover{
+    position: absolute;
+    margin-top: 5px;
+    transition: 1s all;
+}
+.carta2-img-J{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 53px;
+    transition: 2s all;
+}
+.carta2-img{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 53px;
+}
+.carta2-img-J:hover{
+    position: absolute;
+    margin-top: 5px;
+    transition: 1s all;
+}
+.carta3-img-J{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 105px;
+    transition: 2s all;
+}
+.carta3-img{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 105px;
+}
+.carta3-img-J:hover{
+    position: absolute;
+    margin-top: 5px;
+    transition: 1s all;
+}
+#mesaRedonda{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 280px;
+    z-index: 1;
+    text-align: center;
+}
+#mesa-img{
+    position: relative;
+    width: 400px;
+}
+#baralho{
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 165px;
+    float: left;
+    position: absolute;
+}
+
+.manilha-posicao{
+    width: 40px;
+    margin-left: 130px;
+    margin-top: 175px;
+    float: left;
+    position: absolute;
+}
+#localBaralho{
+    margin-left: -20px;
+    z-index: 2;
+    position: absolute;
+}
+#localMesa{
+    z-index: 1;
+    position: relative;
+}
+.carta1-img-J-manilha{
+    position: absolute;
+    margin-top: 37px;
+    transition: 2s all;
+    border: yellow solid 2px;
+    
+
+}
+.carta2-img-J-manilha{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 53px;
+    transition: 2s all;
+    border: yellow solid 2px;
+    
+    
+}
+.carta3-img-J-manilha{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 105px;
+    transition: 2s all;
+    border: yellow solid 2px;
+  
+   
+}
+.manilha1{
+    position: absolute;
+    margin-top: 37px;
+    transition: 2s all;
+    background-color: goldenrod;
+    width: 40px;
+    height: 65px;
+    
+}
+.manilha2{
+    background-color: goldenrod;
+    width: 5000px;
+    height: 6000px;
+    position: absolute;
+   
+}
+.manilha3{
+    margin-top: 200px;
+    background-color: goldenrod;
+    width: 5000px;
+    height: 600px;
+    position: absolute;
+}
+#pontuacao1{
+    position: absolute;
+    font-size: 30pt;
+    margin-top: 160pt;
+    margin-left: 100px;
+}
+#pontuacao2{
+    position: absolute;
+    font-size: 30pt;
+    margin-top: 160pt;
+    margin-left: 700px;
+}
+
+.carta1-img-Jogada{
+    position: absolute;
+    margin-top: -205px;
+    margin-left: 60px;
+    z-index: 3;
+    transition: all 2s;
+}
+.carta2-img-Jogada{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -245px;
+    z-index: 3;
+    transition: all 2s;
+}
+.carta3-img-Jogada{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 60px;
+    z-index: 3;
+    transition: all 2s;
+}
+.carta4-img-Jogada{
+    position: absolute;
+   
+    margin-left: 360px;
+    z-index: 3;
+    transition: all 2s;
+}
+.manilha{
+    transition: 2s all;
+    border: yellow solid 2px;
+}
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+#rodadas{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: -120px;
+    font-size: 20pt;
+}
+.Terminar{
+    position: absolute;
+    margin-top: 25px;
+    background-color: forestgreen;
+    color: white;
+    border: 2px black solid;
+    width: 100px;
+    cursor: pointer;
+    float: center;
+    margin-left: 170px;
+}

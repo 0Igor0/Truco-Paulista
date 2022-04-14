@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section id="caixa-logo"><img src="img/logo.png" id="logo"></section> 
+    </header>
+    <main>
+        <div id="mesa">
+            <div id="rodadas">Rodadas Vencidas:<br> Time 1:<div id="rodadas1">0</div>Time2:<div id="rodadas2">0</div></div>
+            <div id="placar">
+                <div id="pontuacao1">
+                    
+                    Pontos: <div id="pontosTime1">0</div>
+                </div>
+                <div id="pontuacao2">
+                    Pontos: <div id="pontosTime2">0</div>
+                </div>          
+            </div>
+              
+            <section id="mao-j4">
+                <img src="img/original.jpg" id="m1-c1" class="carta1-img-J" onclick="carta1()">
+                <img src="img/original.jpg"  id="m1-c2" class="carta2-img-J" onclick="carta2()">
+                <img src="img/original.jpg"  id="m1-c3" class="carta3-img-J" onclick="carta3()"> 
+                <input type="button" value="Terminar Rodada" class="Terminar" onclick="terminar()">
+                <input type="button" value="Passar" class="passar" onclick="passar()">
+                <input type="button" value="Começar" onclick="comecar()" class="comecar">
+            </section>
+            
+            
+            
+            <section id="mao-j2">
+                <img src="img/original.jpg" class="carta1-img"  id="m2-c1">
+                <img src="img/original.jpg" class="carta2-img" id="m2-c2">
+                <img src="img/original.jpg"class="carta3-img"  id="m2-c3">
+            </section>
+
+            <div id="mesaRedonda">
+                <div id="localBaralho">
+                    
+                    <img src="img/original.jpg" id="baralho">
+                    <img src="img/original.jpg" class="manilha-posicao">
+                </div>
+                <div id="localMesa">
+                    <img src="img/mesaRedonda.png" id="mesa-img">
+                 </div>
+            </div>
+            
+            <section id="mao-j3"> 
+                <img src="img/original.jpg" class="carta1-img" id="m3-c1" >
+                <img src="img/original.jpg" class="carta2-img" id="m3-c2">
+                <img src="img/original.jpg"class="carta3-img" id="m3-c3">
+            </section>
+            <section id="mao-j1">
+            <img src="img/original.jpg" id="m4-c1" class="carta1-img">
+            <img src="img/original.jpg" id="m4-c2" class="carta2-img">
+            <img src="img/original.jpg" id="m4-c3" class="carta3-img" class="carta1-img44">
+            </section>
+    </main>  
+    <script src="js/classe.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/comecou.js"></script>
+    <script src="js/LimparERodadas.js"></script>
+</body>
+</html>
